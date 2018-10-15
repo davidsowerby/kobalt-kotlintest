@@ -1,6 +1,7 @@
 import com.beust.kobalt.plugin.application.application
 import com.beust.kobalt.plugin.packaging.assemble
 import com.beust.kobalt.project
+
 // /home/david/git/kobalt-kotlintest/kobalt/src/Build.kt
 
 
@@ -11,7 +12,7 @@ val p = project {
     version = "0.1"
 
     dependencies {
-//        compile("com.beust:jcommander:1.68")
+        //        compile("com.beust:jcommander:1.68")
         compile("org.jetbrains.kotlin:kotlin-runtime:1.2.70")
         compile("org.jetbrains.kotlin:kotlin-stdlib:1.2.70")
     }
