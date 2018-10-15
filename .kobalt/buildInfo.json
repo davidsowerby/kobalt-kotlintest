@@ -1,0 +1,18 @@
+{
+  "tasks": [
+    {
+      "taskName": "kobalt-kotlintest:assemble",
+      "inputChecksum": "0ff8f6b04708840c40b57c3bd3bb934b"
+    },
+    {
+      "taskName": "kobalt-kotlintest:compile",
+      "inputChecksum": "795cd09636b16ba4db70d59b777beec6",
+      "outputChecksum": "3b3412efa94d0803012ed590ea7760c4"
+    },
+    {
+      "taskName": "kobalt-kotlintest:compileTest",
+      "inputChecksum": "885bf189f41c4b29500c33c4a45df1eb",
+      "outputChecksum": "5b8642dcc5ac3a94ef5356f63168cb0b"
+    }
+  ]
+}
