@@ -10,12 +10,12 @@ class KotlinTest : BehaviorSpec() {
         Given("We want to try KotlinTest") {
             When("We test something that is correct") {
                 Then("it should pass") {
-                    assert(42 > 41)
+                    42.shouldBeEven()
                 }
             }
             When("We test something which is incorrect") {
                 Then("it should fail") {
-                    assert(42 > 43)
+                    42.shouldBeOdd()
                 }
             }
         }

@@ -15,8 +15,8 @@ val p = project {
 
     dependenciesTest {
         compile("org.testng:testng:6.11")
-        compile("io.kotlintest:kotlintest:2.0.7")
-//        compile("io.kotlintest:kotlintest-runner-junit5:3.1.10")
+//        compile("io.kotlintest:kotlintest:2.0.7")
+        compile("io.kotlintest:kotlintest-runner-junit5:3.1.10")
 
     }
 
