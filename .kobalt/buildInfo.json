@@ -7,12 +7,12 @@
     {
       "taskName": "kobalt-kotlintest:compile",
       "inputChecksum": "795cd09636b16ba4db70d59b777beec6",
-      "outputChecksum": "3b3412efa94d0803012ed590ea7760c4"
+      "outputChecksum": "16968efdb7f059de42d31e9abd74da11"
     },
     {
       "taskName": "kobalt-kotlintest:compileTest",
-      "inputChecksum": "885bf189f41c4b29500c33c4a45df1eb",
-      "outputChecksum": "5b8642dcc5ac3a94ef5356f63168cb0b"
+      "inputChecksum": "3cbbb4ac900e66f19bb4b52f3a25e61f",
+      "outputChecksum": "cc9ca428bbc3df6aa85e01839d6b7f2c"
     }
   ]
 }

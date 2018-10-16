@@ -1,6 +1,5 @@
-import com.beust.kobalt.plugin.application.application
-import com.beust.kobalt.plugin.packaging.assemble
-import com.beust.kobalt.project
+import sun.tools.jar.resources.jar
+import java.util.regex.Pattern.compile
 
 val p = project {
     name = "kobalt-kotlintest"
@@ -16,8 +15,8 @@ val p = project {
 
     dependenciesTest {
         compile("org.testng:testng:6.11")
-//        compile("io.kotlintest:kotlintest:2.0.7")
-        compile("io.kotlintest:kotlintest-runner-junit5:3.1.10")
+        compile("io.kotlintest:kotlintest:2.0.7")
+//        compile("io.kotlintest:kotlintest-runner-junit5:3.1.10")
 
     }
 
